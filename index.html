@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChaatBasket — Crunchy Bites, Happy Vibes</title>
+  <meta name="description"
+    content="ChaatBasket serves the crunchiest, tangiest, most delicious chaat in town. Fresh ingredients, hygienic prep, and unbeatable prices starting at just twenty rupees." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">CB</span>
+        <span class="logo-text">ChaatBasket</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu" class="nav-cta">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero_banner.png" alt="Delicious chaat spread" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Freshly Made &middot; Irresistibly Crunchy
+      </div>
+      <h1 class="hero-title reveal">
+        Crunchy Bites,<br /><span class="text-accent">Happy Vibes</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Handcrafted chaat bowls bursting with tangy, spicy flavors — starting at just <strong>&rupee;20</strong>.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn btn-primary">
+          Explore Menu
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- MENU -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Menu</span>
+        <h2 class="section-title">Taste the Magic</h2>
+        <p class="section-subtitle">Four signature bowls, each crafted with love and the freshest ingredients.</p>
+      </div>
+
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <div class="card-image-wrapper">
+            <img src="images/chana_daal_chaat.png" alt="Chana Daal Chaat" class="card-image" loading="lazy" />
+            <span class="price-badge">&rupee;20</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Chana Daal Chaat</h3>
+            <p class="card-desc">Crispy fried chana daal tossed with onions, tomatoes, tangy chutneys, and a squeeze of
+              lemon. The OG crunch.</p>
+          </div>
+        </div>
+
+        <div class="menu-card reveal">
+          <div class="card-image-wrapper">
+            <img src="images/chana_chaat.png" alt="Chana Chaat" class="card-image" loading="lazy" />
+            <span class="price-badge">&rupee;20</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Chana Chaat</h3>
+            <p class="card-desc">Boiled chickpeas mixed with fresh veggies, spices, and our signature tamarind drizzle.
+              Protein-packed goodness.</p>
+          </div>
+        </div>
+
+        <div class="menu-card reveal">
+          <div class="card-image-wrapper">
+            <img src="images/kurkure_chaat.png" alt="Kurkure Chaat" class="card-image" loading="lazy" />
+            <span class="price-badge">&rupee;20</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Kurkure Chaat</h3>
+            <p class="card-desc">Crushed Kurkure layered with yogurt, sev, and chatpata masala. A street-food remix
+              you'll crave forever.</p>
+          </div>
+        </div>
+
+        <div class="menu-card reveal">
+          <div class="card-image-wrapper">
+            <img src="images/bhel_puri.png" alt="Bhel Puri" class="card-image" loading="lazy" />
+            <span class="price-badge">&rupee;20</span>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Bhel Puri</h3>
+            <p class="card-desc">Puffed rice, sev, peanuts, and a medley of chutneys — the classic Mumbai street bite,
+              perfected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-section" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Made with Heart</h2>
+        <p class="section-subtitle">We're not just another stall — here's what makes ChaatBasket special.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22c6-3 10-8 10-14a4 4 0 0 0-8 0 4 4 0 0 0-8 0c0 6 4 11 10 14z" />
+              <path d="M8 6c0-1.6.8-3 2-4" />
+              <path d="M14 6c0-1.6-.8-3-2-4" />
+            </svg>
+          </div>
+          <h3>Fresh Ingredients</h3>
+          <p>Sourced daily from the local market. No shortcuts, no compromises — just pure freshness in every bite.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 20V10" />
+              <path d="M12 20V4" />
+              <path d="M6 20v-6" />
+            </svg>
+          </div>
+          <h3>Healthy &amp; Protein-Rich</h3>
+          <p>Packed with chickpeas, lentils, and fresh veggies. Guilt-free snacking that actually tastes amazing.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+          </div>
+          <h3>Hygienic Prep</h3>
+          <p>Clean hands, clean setup, clean conscience. We follow strict hygiene standards every single day.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="1" x2="12" y2="23" />
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg>
+          </div>
+          <h3>Unbeatable Prices</h3>
+          <p>Premium taste at just twenty rupees a bowl. Great food shouldn't burn a hole in your pocket.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-layout reveal">
+        <div class="about-text">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">About ChaatBasket</h2>
+          <p>
+            ChaatBasket started from a simple idea — that everyone deserves delicious, affordable street food made with
+            love and the freshest ingredients. What began as a humble stall has grown into a neighbourhood favourite,
+            serving smiles one crunchy bite at a time.
+          </p>
+          <p>
+            We believe in keeping things real — no artificial colours, no stale ingredients, just honest-to-goodness
+            chaat that reminds you of home. Every bowl is handcrafted with care, because this isn't just food — it's an
+            experience.
+          </p>
+          <div class="about-highlight">
+            <strong>Thank you</strong> for being part of our journey. Whether you're a first-time visitor or a loyal
+            regular, you make ChaatBasket what it is.
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-card-stack">
+            <div class="about-img-card"><img src="images/chana_chaat.png" alt="Our chaat" loading="lazy" /></div>
+            <div class="about-img-card offset"><img src="images/kurkure_chaat.png" alt="More chaat" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-mark">CB</span>
+            <span class="logo-text">ChaatBasket</span>
+          </div>
+          <p class="footer-tagline">Crunchy bites, Happy vibes</p>
+        </div>
+        <div class="footer-links">
+          <a href="#menu">Menu</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ChaatBasket. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
